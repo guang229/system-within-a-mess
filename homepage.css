@@ -1,0 +1,166 @@
+@font-face {
+    font-family: 'PP Playground';
+    src: url('/Users/gloriaguan/Desktop/cif25/entries/six/fonts/PPPlayground-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Lettra Mono';
+    src: url('/Users/gloriaguan/Desktop/cif25/entries/six/fonts/PPLettraMono-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+.special-letter {
+    font-family: "PP Playground", cursive;
+    font-size: 86px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.card img {
+  width: auto;       /* Scales with card width */
+  max-width: 300px;  /* Never exceeds 300px */
+  height: auto;      /* Keeps proportions */
+  border-radius: 0.5rem;
+}
+
+body {
+    background-image: url(imgs/desk.jpeg);
+    padding: 30px;
+}
+
+h1{
+    text-align: left;
+    line-height: 80%;
+    color: rgb(80, 34, 48);
+    font-size: 52px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+h2{
+    text-align: left;
+    color: rgb(80, 34, 48);
+    font-size: 18px;
+    font-style: bold, italic;
+    font-family:'PP Lettra Mono', serif;
+}
+
+p{
+    text-align: left;
+    color: rgb(80, 34, 48);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+footer{
+    text-align: center;
+    color: rgb(80, 34, 48);
+    font-size: 18px;
+}
+
+div.absolute1 {
+  position: absolute;
+  top: -10px;
+  right: 50px;
+  width: 200px;
+  height: 100px;
+}
+
+div.absolute2 {
+  position: absolute;
+  top: 140px;
+  left: 490px;
+  width: 200px;
+  height: 100px;
+}
+
+div.absolute2:hover {
+      transform: scale(1.1); /* Grow by 10% on hover */
+    }
+
+div.absolute3 {
+  position: absolute;
+  top: 450px;
+  left: 80px;
+  width: 200px;
+  height: 100px;
+}
+
+div.absolute3:hover {
+      transform: scale(1.1); /* Grow by 10% on hover */
+    }
+
+div.absolute4 {
+  position: absolute;
+  bottom: -200px;
+  left: 200px;
+  width: 200px;
+  height: 100px;
+}
+
+div.absolute5 {
+  position: absolute;
+  top: 780px;
+  left: 1380px;
+  width: 200px;
+  height: 100px;
+}
+
+div.absolute5:hover {
+      transform: scale(1.1); /* Grow by 10% on hover */
+    }
+
+div.absolute6 {
+  position: absolute;
+  bottom: -420px;
+  left: 980px;
+  width: 200px;
+  height: 100px;
+}
+
+div.absolute6:hover {
+      transform: scale(1.1); /* Grow by 10% on hover */
+    }
+
+div.absolute7 {
+  position: absolute;
+  top: 200px;
+  left: 1480px;
+  width: 200px;
+  height: 100px;
+}
+
+div.absolute7:hover {
+      transform: scale(1.1); /* Grow by 10% on hover */
+    }
+
+div.absolute8 {
+  position: absolute;
+  top: 1230px;
+  left: 20px;
+  width: 200px;
+  height: 100px;
+}
+
+div.absolute9 {
+  position: absolute;
+  top: 1000px;
+  left: 1600px;
+  width: 200px;
+  height: 100px;
+}
+
+div.relative {
+  position: relative;
+  left: 103px;
+}
+
+
+
+
