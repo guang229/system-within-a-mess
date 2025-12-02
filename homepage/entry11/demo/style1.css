@@ -1,0 +1,23 @@
+body {
+  background: rgb(0,254,218);
+  background: linear-gradient(90deg, rgba(0,254,218,1) 0%, rgba(0,91,218,1) 46%, rgba(119,205,203,1) 100%);
+  color:  white;
+  font-family: arial;
+  overflow-x: hidden;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.blob {
+      position: absolute;
+      width: 240px;
+      height: 207px;
+      background: #030961;
+      border-radius: 50%;
+      mix-blend-mode: color-dodge;
+}
