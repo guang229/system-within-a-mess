@@ -70,6 +70,7 @@ div.absolute1 {
   right: 50px;
   width: 200px;
   height: 100px;
+  display: flex;
 }
 
 div.absolute2 {
@@ -78,6 +79,8 @@ div.absolute2 {
   left: 490px;
   width: 200px;
   height: 100px;
+  display: flex;
+
 }
 
 div.absolute2:hover {
@@ -90,6 +93,8 @@ div.absolute3 {
   left: 80px;
   width: 200px;
   height: 100px;
+  display: flex;
+
 }
 
 div.absolute3:hover {
@@ -102,6 +107,8 @@ div.absolute4 {
   left: 200px;
   width: 200px;
   height: 100px;
+  display: flex;
+
 }
 
 div.absolute5 {
@@ -110,6 +117,7 @@ div.absolute5 {
   left: 1380px;
   width: 200px;
   height: 100px;
+  display: flex;
 }
 
 div.absolute5:hover {
@@ -122,6 +130,7 @@ div.absolute6 {
   left: 980px;
   width: 200px;
   height: 100px;
+  display: flex;
 }
 
 div.absolute6:hover {
@@ -134,6 +143,7 @@ div.absolute7 {
   left: 1480px;
   width: 200px;
   height: 100px;
+  display: flex;
 }
 
 div.absolute7:hover {
@@ -146,6 +156,7 @@ div.absolute8 {
   left: 20px;
   width: 200px;
   height: 100px;
+  display: flex;
 }
 
 div.absolute9 {
@@ -154,6 +165,7 @@ div.absolute9 {
   left: 1600px;
   width: 200px;
   height: 100px;
+  display: flex;
 }
 
 div.absolute10 {
@@ -162,6 +174,7 @@ div.absolute10 {
   left: 1300px;
   width: 380px;
   height: 400px;
+  display: flex;
 }
 
 div.absolute10:hover {
