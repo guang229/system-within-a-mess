@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'PP Playground';
+    src: url('/Users/gloriaguan/Desktop/cif25/entries/six/fonts/PPPlayground-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Lettra Mono';
+    src: url('/Users/gloriaguan/Desktop/cif25/entries/six/fonts/PPLettraMono-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.playlist {
+    display:flex;
+    padding-left: 400px;
+    padding-bottom: 20px; 
+    padding-right: 60px;
+}
+
+.special-letter {
+    font-family: "PP Playground", cursive;
+    font-size: 86px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.vinyl-container {
+    display: flex;
+    position:absolute;
+    margin-bottom: 20px;
+    width: 600px;
+    height: 600px;
+    left: -300px;
+    border: 10px solid transparent;
+}
+
+/* Continuous vinyl rotation */
+.vinyl-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    transform-origin: 50% 50%;
+    animation: vinyl-spin 6s linear infinite;
+}
+
+@keyframes vinyl-spin {
+    from { transform: rotate(0deg); }
+    to   { transform: rotate(360deg); }
+}
+
+h1{
+    text-align: left;
+    line-height: 80%;
+    color: rgb(137, 6, 6);
+    font-size: 52px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+p{
+    color: rgb(137, 6, 6);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: right;
+    padding-top: 10px;
+    padding-left: 400px;
+    padding-right: 60px;
+}
