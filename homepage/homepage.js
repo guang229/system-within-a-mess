@@ -6,6 +6,7 @@ const sites = [
   'https://guang229.github.io/system-within-a-mess/homepage/music/anti.html',
   'https://guang229.github.io/system-within-a-mess/homepage/music/ctrl/ctrl.html',
   'https://guang229.github.io/system-within-a-mess/homepage/music/cinema/cinema.html',
+  'https://guang229.github.io/system-within-a-mess/homepage/music/lostandfound/lostandfound.html'
 
 ];
 
