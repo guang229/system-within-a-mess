@@ -1,0 +1,86 @@
+@font-face {
+    font-family: 'PP Playground';
+    src: url('/Users/gloriaguan/Desktop/cif25/entries/six/fonts/PPPlayground-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Lettra Mono';
+    src: url('/Users/gloriaguan/Desktop/cif25/entries/six/fonts/PPLettraMono-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+/* Inline layout for image + paragraph */
+.inline-row {
+    display: flex;
+    align-items: flex-start;
+    gap: 28px;
+    padding: 24px 48px;
+    margin: 0 auto;
+}
+
+.main-photo {
+    flex: 0 0 400px; /* fixed image size */
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.text-block {
+    flex: 1 1 auto;
+    min-width: 260px;
+}
+
+.anim-container {  
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  right: 50px;
+}
+
+.anim-container img {
+  width: 50%;
+  height: 50%;
+  display: block;
+}
+
+.special-letter {
+    font-family: "PP Playground", cursive;
+    font-size: 86px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    text-align: center;
+    line-height: 80%;
+    color: rgb(74, 39, 5);
+    font-size: 52px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+h2{
+    text-align: left;
+    color: rgb(74, 39, 5);
+    font-size: 18px;
+    font-style: bold, italic;
+    font-family:'PP Lettra Mono', serif;
+}
+
+p{
+    text-align: left;
+    color: rgb(74, 39, 5);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    margin: 0; 
+    padding-left: 50px;
+    padding-right: 350px;
+}
