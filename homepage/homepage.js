@@ -1,5 +1,43 @@
 // homepage.js
 
+const ele = document.documentElement; // scroll the whole page
+let isDown = false;
+let startX;
+let startY;
+let scrollLeft;
+let scrollTop;
+
+window.addEventListener('mousedown', (e) => {
+  isDown = true;
+  document.body.classList.add('dragging');
+  startX = e.clientX;
+  startY = e.clientY;
+  scrollLeft = ele.scrollLeft;
+  scrollTop = ele.scrollTop;
+});
+
+window.addEventListener('mouseleave', () => {
+  isDown = false;
+  document.body.classList.remove('dragging');
+});
+
+window.addEventListener('mouseup', () => {
+  isDown = false;
+  document.body.classList.remove('dragging');
+});
+
+window.addEventListener('mousemove', (e) => {
+  if (!isDown) return;
+  e.preventDefault();
+  const x = e.clientX;
+  const y = e.clientY;
+  const walkX = x - startX;
+  const walkY = y - startY;
+  ele.scrollLeft = scrollLeft - walkX;
+  ele.scrollTop = scrollTop - walkY;
+});
+
+
 // Array of pages to choose from
 const sites = [
   'https://guang229.github.io/system-within-a-mess/homepage/music/igor/igor.html',
