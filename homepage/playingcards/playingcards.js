@@ -2,17 +2,17 @@ const img = document.getElementById("anim-frame");
 
 // List of frame image paths
 const frames = [
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/playingcards/imgs/frame1.png",
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/playingcards/imgs/frame2.png",
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/playingcards/imgs/frame3.png",
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/playingcards/imgs/frame4.png",
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/playingcards/imgs/frame5.png",
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/playingcards/imgs/frame6.png",
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/playingcards/imgs/frame7.png",
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/playingcards/imgs/frame8.png",
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/playingcards/imgs/frame9.png",
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/playingcards/imgs/frame10.png",
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/playingcards/imgs/frame11.png",
+  "imgs/frame1.png",
+  "imgs/frame2.png",
+  "imgs/frame3.png",
+  "imgs/frame4.png",
+  "imgs/frame5.png",
+  "imgs/frame6.png",
+  "imgs/frame7.png",
+  "imgs/frame8.png",
+  "imgs/frame9.png",
+  "imgs/frame10.png",
+  "imgs/frame11.png",
 ];
 
 let current = 0;

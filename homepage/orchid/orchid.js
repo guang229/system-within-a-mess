@@ -1,6 +1,5 @@
 const img = document.getElementById("anim-frame");
 
-// List of frame image paths (relative to this HTML file)
 const frames = [
   'imgs/frame1.png',
   'imgs/frame2.png',

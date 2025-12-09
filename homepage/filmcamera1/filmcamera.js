@@ -1,14 +1,14 @@
 const img = document.getElementById("anim-frame");
 
 const frames = [
-  'homepage/filmcamera1/imgs/frame1.PNG',
-  'homepage/filmcamera1/imgs/frame2.PNG',
-  'homepage/filmcamera1/imgs/frame3.PNG',
-  'homepage/filmcamera1/imgs/frame4.PNG',
-  'homepage/filmcamera1/imgs/frame5.PNG',
-  'homepage/filmcamera1/imgs/frame6.PNG',
-  'homepage/filmcamera1/imgs/frame7.PNG',
-  'homepage/filmcamera1/imgs/frame8.PNG',
+  'imgs/frame1.PNG',
+  'imgs/frame2.PNG',
+  'imgs/frame3.PNG',
+  'imgs/frame4.PNG',
+  'imgs/frame5.PNG',
+  'imgs/frame6.PNG',
+  'imgs/frame7.PNG',
+  'imgs/frame8.PNG',
 ];
 
 let current = 0;
