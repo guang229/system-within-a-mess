@@ -49,32 +49,6 @@
     justify-content: center;
 }
 
-.slide-btn {
-    background: rgb(5, 74, 39);
-    color: #fff;
-    border: none;
-    width: 48px;
-    height: 48px;
-    border-radius: 6px;
-    font-size: 20px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: background 0.18s ease, transform 0.08s ease;
-}
-
-.slide-btn:hover,
-.slide-btn:focus {
-    background: rgb(5, 74, 39);
-    transform: translateY(-2px);
-    outline: none;
-}
-
-.slide-btn:active {
-    transform: translateY(0);
-}
-
 /* Mobile: slightly smaller buttons */
 @media (max-width: 520px) {
     .slide-btn { width: 40px; height: 40px; font-size: 18px; }
