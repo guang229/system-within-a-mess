@@ -1,0 +1,83 @@
+@font-face {
+    font-family: 'PP Playground';
+    src: url('/Users/gloriaguan/Desktop/cif25/entries/six/fonts/PPPlayground-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Lettra Mono';
+    src: url('/Users/gloriaguan/Desktop/cif25/entries/six/fonts/PPLettraMono-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+.special-letter {
+    font-family: "PP Playground", cursive;
+    font-size: 86px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.center-text {
+    text-align: center;
+}
+
+h1{
+    text-align: left;
+    line-height: 80%;
+    color: rgb(239, 227, 198);
+    font-size: 42px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 30px;
+}
+
+p{
+    text-align: left;
+    color: rgb(239, 227, 198);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display:block;
+    padding-left: 50px;
+    padding-bottom: auto;
+    padding-top: 30px;
+    padding-right: 800px;
+}
+
+.inline-row img:hover { transform: none; }
+
+.sparkle-area {
+  position: relative; /* to contain absolute-positioned sparkles */
+  display: inline-block;
+  padding-bottom: 1000px;
+  padding-left: 800px;
+}
+
+/* Emoji sparkle style (absolute within .sparkle-area) */
+.sparkle {
+  position: absolute; /* positioned relative to .sparkle-area */
+  pointer-events: none;
+  font-size: 20px;
+  line-height: 1;
+  transform-origin: 50% 50%;
+  opacity: 1;
+  animation: sparkle-out 700ms cubic-bezier(.2,.9,.2,1) forwards;
+  z-index: 9999;
+}
+
+@keyframes sparkle-out {
+  0% {
+    transform: translateY(0) scale(1) rotate(0deg);
+    opacity: 1;
+  }
+  75% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-36px) scale(0.5) rotate(25deg);
+    opacity: 0;
+  }
+}
