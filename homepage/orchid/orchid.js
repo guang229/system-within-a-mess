@@ -1,15 +1,16 @@
 const img = document.getElementById("anim-frame");
 
-// List of frame image paths
+// List of frame image paths (relative to this HTML file)
+// Use relative paths (./ or imgs/) rather than absolute filesystem paths.
 const frames = [
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/orchid/imgs/frame1.png",
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/orchid/imgs/frame2.png",
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/orchid/imgs/frame3.png",
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/orchid/imgs/frame4.png",
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/orchid/imgs/frame5.png",
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/orchid/imgs/frame6.png",
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/orchid/imgs/frame7.png",
-  "/Users/gloriaguan/Desktop/cif25/Harmonic Collection/GitHub/system-within-a-mess/homepage/orchid/imgs/frame8.png",
+  'imgs/frame1.png',
+  'imgs/frame2.png',
+  'imgs/frame3.png',
+  'imgs/frame4.png',
+  'imgs/frame5.png',
+  'imgs/frame6.png',
+  'imgs/frame7.png',
+  'imgs/frame8.png',
 ];
 
 let current = 0;
@@ -18,6 +19,7 @@ const frameDuration = 1000 / fps; // ms per frame
 let lastTime = 0;
 
 function animate(timestamp) {
+  if (!img) return; // guard: stop if element missing
   if (!lastTime) lastTime = timestamp;
   const elapsed = timestamp - lastTime;
 
