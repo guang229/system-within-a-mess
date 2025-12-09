@@ -2,14 +2,14 @@ const img = document.getElementById("anim-frame");
 
 // List of frame image paths
 const frames = [
-  'homepage/filmcamera1/imgs/frame1.png',
-  'homepage/filmcamera1/imgs/frame2.png',
-  'homepage/filmcamera1/imgs/frame3.png',
-  'homepage/filmcamera1/imgs/frame4.png',
-  'homepage/filmcamera1/imgs/frame5.png',
-  'homepage/filmcamera1/imgs/frame6.png',
-  'homepage/filmcamera1/imgs/frame7.png',
-  'homepage/filmcamera1/imgs/frame8.png',
+  'homepage/filmcamera1/imgs/frame1.PNG',
+  'homepage/filmcamera1/imgs/frame2.PNG',
+  'homepage/filmcamera1/imgs/frame3.PNG',
+  'homepage/filmcamera1/imgs/frame4.PNG',
+  'homepage/filmcamera1/imgs/frame5.PNG',
+  'homepage/filmcamera1/imgs/frame6.PNG',
+  'homepage/filmcamera1/imgs/frame7.PNG',
+  'homepage/filmcamera1/imgs/frame8.PNG',
 ];
 
 let current = 0;

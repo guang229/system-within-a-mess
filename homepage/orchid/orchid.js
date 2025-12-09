@@ -1,16 +1,15 @@
 const img = document.getElementById("anim-frame");
 
 // List of frame image paths (relative to this HTML file)
-// Use relative paths (./ or imgs/) rather than absolute filesystem paths.
 const frames = [
-  'homepage/orchid/imgs/frame1.png',
-  'homepage/orchid/imgs/frame2.png',
-  'homepage/orchid/imgs/frame3.png',
-  'homepage/orchid/imgs/frame4.png',
-  'homepage/orchid/imgs/frame5.png',
-  'homepage/orchid/imgs/frame6.png',
-  'homepage/orchid/imgs/frame7.png',
-  'homepage/orchid/imgs/frame8.png',
+  'homepage/orchid/imgs/frame1.PNG',
+  'homepage/orchid/imgs/frame2.PNG',
+  'homepage/orchid/imgs/frame3.PNG',
+  'homepage/orchid/imgs/frame4.PNG',
+  'homepage/orchid/imgs/frame5.PNG',
+  'homepage/orchid/imgs/frame6.PNG',
+  'homepage/orchid/imgs/frame7.PNG',
+  'homepage/orchid/imgs/frame8.PNG',
 ];
 
 let current = 0;
