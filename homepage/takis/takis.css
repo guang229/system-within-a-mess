@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'PP Playground';
+    src: url('/Users/gloriaguan/Desktop/cif25/entries/six/fonts/PPPlayground-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Lettra Mono';
+    src: url('/Users/gloriaguan/Desktop/cif25/entries/six/fonts/PPLettraMono-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+#image-container img {
+  width: 100px;    /* adjust as needed */
+  margin: 4px;
+}
+
+.special-letter {
+    font-family: "PP Playground", cursive;
+    font-size: 86px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.center-text {
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    line-height: 80%;
+    color: rgb(164, 44, 17);
+    font-size: 52px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+h2{
+    text-align: left;
+    color: rgb(164, 44, 17);
+    font-size: 18px;
+    font-style: bold, italic;
+    font-family:'PP Lettra Mono', serif;
+}
+
+p{
+    text-align: left;
+    color: rgb(164, 44, 17);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 700px;
+    padding-top: 30px;
+}
