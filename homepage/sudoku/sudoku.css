@@ -25,6 +25,7 @@
   right: 100px;
   background-color: antiquewhite;
   border-radius: 20px;
+  display: flex;
 }
 
 .special-letter {

@@ -210,6 +210,28 @@ div.absolute12:hover {
       transform: scale(1.1); /* Grow by 10% on hover */
     }
 
+div.absolute13 {
+  position: absolute;
+  top: 1400px;
+  left: 700px;
+  width: 350px;
+  height: 350px;
+  display: flex;
+}
+
+div.absolute14 {
+  position: absolute;
+  top: 1150px;
+  left: 1800px;
+  width: 400px;
+  height: 450px;
+  display: flex;
+}
+
+div.absolute14:hover {
+      transform: scale(1.1); /* Grow by 10% on hover */
+    }
+
 div.relative {
   position: relative;
   left: 103px;

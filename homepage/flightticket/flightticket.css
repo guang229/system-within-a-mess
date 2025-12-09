@@ -1,0 +1,135 @@
+@font-face {
+    font-family: 'PP Playground';
+    src: url('/Users/gloriaguan/Desktop/cif25/entries/six/fonts/PPPlayground-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'PP Lettra Mono';
+    src: url('/Users/gloriaguan/Desktop/cif25/entries/six/fonts/PPLettraMono-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center; /* center images as the page shrinks */
+    cursor: pointer;
+}
+
+.container .slideshow-image {
+    width: auto;
+    height: auto;
+    max-width: 90vw;
+    max-height: 70vh;
+    box-sizing: border-box;
+    display: block;
+    opacity: 1;
+    transition: opacity 0.45s ease;
+    transform: none; /* disable the global hover scale */
+}
+
+.container img:hover {
+    -webkit-transform: none;
+    transform: none;
+}
+
+.slideshow-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.slide-btn {
+    background: rgb(5, 74, 39);
+    color: #fff;
+    border: none;
+    width: 48px;
+    height: 48px;
+    border-radius: 6px;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background 0.18s ease, transform 0.08s ease;
+}
+
+.slide-btn:hover,
+.slide-btn:focus {
+    background: rgb(5, 74, 39);
+    transform: translateY(-2px);
+    outline: none;
+}
+
+.slide-btn:active {
+    transform: translateY(0);
+}
+
+/* Mobile: slightly smaller buttons */
+@media (max-width: 520px) {
+    .slide-btn { width: 40px; height: 40px; font-size: 18px; }
+}
+
+.container img {
+    width: auto;
+    height: auto;
+    box-sizing: border-box;
+}
+
+img {
+    transition:transform 0.25s ease;
+}
+            
+img.exempt {
+    transform: scale(1);
+    padding-top: 0px;
+    float:left;
+    width:450px;
+    height: 450px;
+}
+
+.special-letter {
+    font-family: "PP Playground", cursive;
+    font-size: 86px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    text-align: center;
+    line-height: 80%;
+    color: rgb(196, 1, 75);
+    font-size: 52px;
+    font-weight: 400;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+}
+
+h2{
+    text-align: left;
+    color: rgb(196, 1, 75);
+    font-size: 18px;
+    font-style: bold, italic;
+    font-family:'PP Lettra Mono', serif;
+}
+
+p{
+    text-align: left;
+    color: rgb(196, 1, 75);
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 30px;
+}
