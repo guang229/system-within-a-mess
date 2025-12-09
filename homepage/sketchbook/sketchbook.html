@@ -4,43 +4,29 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>system within a mess</title>
-        <style>
-            .center-text {
-                text-align: center;
-            }
-
-            .container {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 16px;
-                justify-content: center; /* center images as the page shrinks */
-            }
-
-            .container img {
-                width: auto;
-                height: auto;
-                box-sizing: border-box;
-            }
-
-            img {
-                transition:transform 0.25s ease;
-            }
-
-            img:hover {
-                -webkit-transform:scale(2); /* or some other value */
-                transform:scale(2);
-            }
-            
-            img.exempt {
-                transform: scale(1);
-            }
-        </style>
+        <link rel="stylesheet" href="sketchbook.css">     
     </head>
     
     <body style="background-color:rgb(208, 204, 214);">
-        <h1 class="center-text" style="color:rgb(5, 74, 39);">.𖥔 ݁ ˖ My sketchbook  ۫ ׅ ✧</h1>
-        <pre style="color: rgb(5, 74, 39);"> <img class="exempt" src="imgs/sketchbook.png" alt="sketchbook" style="float:left;width:450px;height: 450px;">
-        
+
+        <h1>.˖ <span class="special-letter">M</span>y <span class="special-letter">S</span>ketchbook <br> </h1>
+
+        <img class="exempt" src="imgs/sketchbook.png" alt="sketchbook">
+
+        <div class="slideshow-wrapper">
+            <button class="slide-btn prev" aria-label="Previous image">◀</button>
+            <div class="container" tabindex="0" role="region" aria-label="Sketchbook slideshow">
+                <img src="imgs/sketchbook1.png" alt="film1" style="width:565px;height: 423px;">
+                <img src="imgs/sketchbook2.png" alt="film3" style="width: 565px;height: 423px;">
+                <img src="imgs/sketchbook3.png" alt="film2" style="width:565px;height: 423px;">
+                <img src="imgs/sketchbook4.png" alt="film4" style="width:565px;height: 423px">
+                <img src="imgs/sketchbook5.png" alt="film2" style="width:565px;height: 423px;">
+                <img src="imgs/sketchbook6.png" alt="film4" style="width:565px;height: 423px">
+            </div>
+            <button class="slide-btn next" aria-label="Next image">▶</button>
+        </div>
+
+        <p> 
         As a graphic design major, most of my creative process is done online. However, one of my favourite parts of 
         
         a project is the very beginning, the research stage. Brainstorming, making collages, and compiling research is 
@@ -54,14 +40,9 @@
         ideating I did for them
 
         ⠀⠀⠀.　　　　　　　　　　　　　.　　　ﾟ .　　　　　　　　　　　　　. 　　　　　　　　　　　　　　　✦ 　　　　　,　　　　　　　.
-⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀　　　　　　*　　　　　　　　　　　..　　　　　　　　　　　　　. 　　✦⠀　   　　　,　　　　　　　　　*　　　　　⠀　　　　⠀　　,
-            
-        <div class="container">
-            <img src="imgs/sketchbook1.png" alt="film1" style="width:407.5px;height: 303px;">
-            <img src="imgs/sketchbook2.png" alt="film3" style="width:280px;height: 413px;">
-            <img src="imgs/sketchbook3.png" alt="film2" style="width:280.5px;height: 413px;">
-            <img src="imgs/sketchbook4.png" alt="film4" style="width:407.5px;height: 303px">
-            <img src="imgs/sketchbook5.png" alt="film2" style="width:280.5px;height: 413px;">
-            <img src="imgs/sketchbook6.png" alt="film4" style="width:407.5px;height: 303px">
-        </div>
-        </pre> 
+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀　　　　　　*　　　　　　　　　　　..　　　　　　　　　　　　　. 　　✦⠀　   　　　,
+        </p>
+
+        <script src="sketchbook.js"></script>
+    </body>
+</html>
